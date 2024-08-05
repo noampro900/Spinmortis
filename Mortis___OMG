@@ -30,7 +30,7 @@
 </head>
 <body>
     <div class="container">
-        <img src="https://static.wikia.nocookie.net/brawlstars/images/b/b2/Mortis_Skin-Default.png/revision/latest?cb=20200520104613" alt="Spinning Image" class="spinning-image">
+        <img src="https://noampro900.github.io/Spinmortis/Mortis_Skin-Default.png" alt="Spinning Image" class="spinning-image">
     </div>
     <audio id="background-music" loop>
         <source src="" type="audio/mpeg">
@@ -41,8 +41,11 @@
   <source src="https://noampro900.github.io/Spinmortis/Brawl%20Stars%20OST%20_%20Season%2016%20_%20Candyland%20_%20Battle%20Music.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
     </audio>
+     
     <script>
-        window.location.href = 'https://example.com/page1';
+    setTimeout(function() {
+            window.location.href = 'https://noampro900.github.io/Spinmortis/eea.html'; // Replace with your URL
+        }, 3080);
     </script>
 </body>
 </html>
