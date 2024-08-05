@@ -42,29 +42,7 @@
 Your browser does not support the audio element.
     </audio>
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var audio = document.getElementById('background-music');
-            var playButton = document.getElementById('play-button');
-
-            // Function to attempt playback
-            function attemptPlayback() {
-                audio.play().catch(function(error) {
-                    console.error('Playback error:', error);
-                });
-            }
-
-            // Set up an event listener for the button click
-            playButton.addEventListener('click', function() {
-                attemptPlayback();
-
-                // Open a new page when the button is clicked
-                window.location.href = '';
-                
-                // Change button text to indicate that music is playing
-                playButton.textContent = 'nothing';
-                playButton.disabled = true; // Optionally disable the button after clicking
-            });
-        });
+        window.location.href = 'https://example.com/page1';
     </script>
 </body>
 </html>
